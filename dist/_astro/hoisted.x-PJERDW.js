@@ -1,1 +1,0 @@
-import"./hoisted.CiLopJ-T.js";function n(){const t=document.querySelectorAll(".word-animation");let e=0;function o(){t.forEach((a,r)=>{r===e?a.classList.add("active"):a.classList.remove("active")}),e=(e+1)%t.length}setInterval(o,2500),o()}document.addEventListener("astro:page-load",n);n();
